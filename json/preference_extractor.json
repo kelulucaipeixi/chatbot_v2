@@ -1,0 +1,31 @@
+[
+        {
+            "text": "Please tell me whether you like the movie: ",
+            "fallback": "You are unable to choose a feature",
+            "callback_id": "preference_extractor",
+            "color": "#3AA3E3",
+            "attachment_type": "default",
+            "actions": [
+                {
+                    "name": "feature",
+                    "text": "I don't like it",
+                    "type": "button",
+                    "value": 0
+                },
+                {
+                    "name": "feature",
+                    "text": "I like it",
+                    "type": "button",
+                    "value": 1
+                },
+                {
+                    "name": "feature",
+                    "text": "I have not watched the movie",
+                    "type": "button",
+                    "value": 2
+                }
+                
+
+            ]
+        }
+    ]

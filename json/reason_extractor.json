@@ -1,0 +1,22 @@
+[
+        {
+            "text": "Which reason makes you feel you won't watch it?",
+            "fallback": "If you could read this message, you'd be choosing something fun to do right now.",
+            "color": "#3AA3E3",
+            "attachment_type": "default",
+            "callback_id": "reason_extractor",
+            "actions": [
+                {
+                    "name": "games_list",
+                    "text": "Pick a reason...",
+                    "type": "select",
+                    "options": [
+                        {
+                            "text": "None of the above are the reasons I don't like the movie.",
+                            "value": "None of the above are the reasons I don't like the movie."
+                        }                       
+                    ]
+                }
+            ]
+        }
+    ]
